@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --color: rgb(224, 105, 224);
+  --otherCol: rgba(146, 146, 146, 0.171);
+  --nar: rgb(248, 115, 38);
+}
+
+h1 {
+  color: var(--color);
+}
+
+#grey {
+  color: black;
+  background-color: var(--otherCol);
+  font-weight: bold;
+}
+
+#naranja {
+  background-color: var(--nar);
+}
+.btn {
+  height: 50px;
+  border-radius: 8px;
+  font-size: 15px;
+  padding: 5px;
+  width: 140px;
+}
+h4 {
+  font-size: 25px;
+}
+#keys {
+  width: 75%;
+  height: 300px;
+  display: flex;
+  border: 3px solid rebeccapurple;
+}
+#short {
+  width: 25%;
+}
+#wide {
+  width: 300px;
+  height: 850px;
+}
+#long {
+  width: 200px;
+  height: 550px;
+}
+#long img {
+  width: 100%;
+  height: auto;
+}
+#wide img {
+  width: 100%;
+  height: auto;
+}
