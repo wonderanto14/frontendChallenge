@@ -1,0 +1,37 @@
+#first {
+  display: flex;
+  justify-content: start;
+}
+
+hr {
+  width: 500px;
+  height: 0;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+footer,
+ul {
+  display: flex;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+li {
+  padding: 10px;
+  list-style: none;
+}
+
+#imageHolder {
+  width: 25%;
+}
+
+section {
+  display: flex;
+}
+
+div img {
+  width: 100%;
+}
