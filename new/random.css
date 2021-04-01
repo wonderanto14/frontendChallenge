@@ -8,15 +8,17 @@
 }
 
 .img img {
-  width: 100%;
+  width: 80%;
+  margin-top: 10px;
   height: auto;
 }
 
 .contain {
   display: flex;
+  box-shadow: 0px 5px 5px grey;
 }
 
-.tex {
+.bla {
   margin-right: 20px;
   color: purple;
 }
