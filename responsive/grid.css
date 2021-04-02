@@ -12,6 +12,40 @@ section {
   border: 4px solid salmon;
 }
 
+.hidden {
+  display: none;
+}
+
+#one {
+  float: right;
+}
+.appear {
+  width: 14em;
+  height: 50em;
+  background-color: grey;
+  color: rgb(19, 82, 124);
+}
+
+#two {
+  display: flex;
+  flex-direction: column;
+}
+
+#two li {
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+nav,
+ul {
+  display: flex;
+}
+
+nav {
+  justify-content: space-between;
+}
 .shared {
   width: 350px;
   height: 150px;
