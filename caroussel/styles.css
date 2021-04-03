@@ -1,0 +1,19 @@
+section {
+  display: flex;
+}
+.images {
+  width: 20em;
+}
+
+.images img {
+  width: 75%;
+}
+
+.images img:hover {
+  width: 100%;
+  z-index: 1;
+}
+
+h1 {
+  color: palegreen;
+}

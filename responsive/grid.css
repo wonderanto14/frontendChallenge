@@ -24,6 +24,7 @@ section {
   height: 50em;
   background-color: grey;
   color: rgb(19, 82, 124);
+  transition: all 2s ease-in;
 }
 
 #two {
