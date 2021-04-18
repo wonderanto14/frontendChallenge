@@ -1,0 +1,30 @@
+$first-color: purple;
+
+@mixin bla {
+  font-size: 65px;
+  border: 4px solid green;
+  text-decoration: underline;
+}
+
+#imgCont {
+  width: 15rem;
+  border: 4px solid $first-color;
+}
+
+#imgCont img {
+  width: 100%;
+}
+
+h1 {
+  @include bla;
+}
+
+#container {
+  h1 {
+    color: $first-color;
+  }
+  p {
+    font-size: 20px;
+    width: 300px;
+  }
+}

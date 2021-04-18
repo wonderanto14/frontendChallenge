@@ -1,0 +1,105 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+input {
+  border: 0;
+  border-bottom: 1px solid black;
+  width: 20em;
+  height: 3em;
+  margin-top: 0.5em;
+}
+
+#nint {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#nint input,
+#nint label {
+  margin-left: 5em;
+}
+
+#nav-ul {
+  color: #434242;
+  font-weight: bold;
+}
+
+#nav-ul li {
+  padding: 0.5em;
+}
+
+nav,
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+button {
+  background-color: #e60012;
+  color: white;
+  padding: 1em;
+  font-size: 1rem;
+  border-radius: 0.5em;
+  height: 4em;
+  width: 10em;
+}
+
+#mid-ul {
+  place-content: center;
+}
+
+#mid-ul li {
+  padding: 1.5em;
+  font-weight: bold;
+}
+
+#main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80%;
+  margin-top: 5em;
+}
+
+#background {
+  background-color: #d6f0fa;
+  width: 100vw;
+  height: 25vw;
+}
+
+#background img {
+  width: 60%;
+  margin-left: 20em;
+  height: 120%;
+}
+
+#logo {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 8em;
+  height: 5em;
+}
+
+#logo img {
+  width: 100%;
+}
+/*# sourceMappingURL=nintendo.css.map */
