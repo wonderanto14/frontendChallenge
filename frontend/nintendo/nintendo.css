@@ -11,6 +11,10 @@ input {
   margin-top: 0.5em;
 }
 
+hr {
+  margin-left: 8em;
+}
+
 #nint {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -76,6 +80,7 @@ button {
           justify-content: space-between;
   width: 80%;
   margin-top: 5em;
+  margin-left: 15em;
 }
 
 #background {
@@ -101,5 +106,72 @@ button {
 
 #logo img {
   width: 100%;
+}
+
+#bck {
+  background-color: #d6f0fa;
+}
+
+#off {
+  width: 20em;
+}
+
+#text {
+  width: 80%;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+#images {
+  width: 100vw;
+  height: 35em;
+  background-color: #d6f0fa;
+}
+
+#big {
+  width: 40vw;
+  height: 40vh;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 2;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-area: main;
+  margin-left: 10em;
+}
+
+.size {
+  width: 20vw;
+  height: 20vh;
+}
+
+#gridCont {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "main main pic1 pic2" "main main pic3 pic4";
+  grid-gap: 0.5em;
+}
+
+#pic1 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: pic1;
+}
+
+#pic2 {
+  -ms-grid-row: 1;
+  -ms-grid-column: 4;
+  grid-area: pic2;
+}
+
+#pic3 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 3;
+  grid-area: pic3;
+}
+
+#pic4 {
+  -ms-grid-row: 2;
+  -ms-grid-column: 4;
+  grid-area: pic4;
 }
 /*# sourceMappingURL=nintendo.css.map */
