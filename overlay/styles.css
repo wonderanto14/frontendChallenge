@@ -1,16 +1,39 @@
-#imgCont {
-  width: 15rem;
+#textCont {
+  width: 20rem;
   border: 4px solid purple;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
 }
 
-#imgCont img {
-  width: 100%;
+#image {
+  display: block;
+  width: 500px;
+}
+
+#container img {
+  width: 50%;
+}
+
+#container:hover #textCont {
+  opacity: 1;
+  border: 3px solid green;
 }
 
 h1 {
-  font-size: 65px;
-  border: 4px solid green;
+  font-size: 2rem;
   text-decoration: underline;
+}
+
+#container {
+  position: relative;
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
 }
 
 #container h1 {
@@ -18,7 +41,9 @@ h1 {
 }
 
 #container p {
-  font-size: 20px;
-  width: 300px;
+  font-size: 1.5rem;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
 }
 /*# sourceMappingURL=styles.css.map */
