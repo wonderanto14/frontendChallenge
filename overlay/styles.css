@@ -24,6 +24,12 @@
   border: 3px solid green;
 }
 
+.change {
+  font-size: 40px;
+  color: purple;
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 2rem;
   text-decoration: underline;

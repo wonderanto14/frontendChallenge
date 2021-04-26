@@ -32,7 +32,11 @@ $first-color: purple;
     border: 3px solid green;
   }
 }
-
+.change {
+  font-size: 40px;
+  color: purple;
+  text-decoration: underline;
+}
 h1 {
   @include bla;
 }
