@@ -1,0 +1,76 @@
+nav,
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+nav {
+  color: blueviolet;
+  background-color: cornflowerblue;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+  padding: 1em;
+}
+
+#container {
+  margin: 0 auto;
+  width: 80%;
+  border: 3px solid saddlebrown;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.block {
+  width: 25%;
+  border: 3px solid mediumblue;
+  margin-left: 5em;
+  height: 20em;
+}
+
+.press {
+  display: block;
+  width: 10em;
+  height: 50px;
+  border-radius: 20px;
+  background-color: mediumorchid;
+  color: white;
+  font-weight: bold;
+}
+
+.fun {
+  border-radius: 3em;
+  text-align: center;
+  font-size: 20px;
+}
+
+body :hover {
+  color: green;
+}
+
+#first {
+  margin-right: 10em;
+  color: Grey;
+}
+
+#card {
+  color: Grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid grey;
+  border-radius: 2em;
+  -webkit-box-shadow: 2px 6px #d6d4d4;
+          box-shadow: 2px 6px #d6d4d4;
+}
+
+#card div {
+  margin-right: 5em;
+}
+/*# sourceMappingURL=index.css.map */
