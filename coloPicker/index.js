@@ -19,7 +19,7 @@ doggo();
 
 class Person {
   constructor(name, age, occupation) {
-    (this.name = name), (this.age = age), (this.occupation = occupation);
+    (this.name = name)((this.age = age))((this.occupation = occupation));
   }
   say() {
     console.log(
@@ -28,5 +28,5 @@ class Person {
   }
 }
 
-const far = new Person("Antonella", 25, "unicorn");
+let far = new Person("Antonella", 25, "unicorn");
 console.log(far.say());

@@ -1,0 +1,40 @@
+ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+  padding: 1em;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+p {
+  width: 25%;
+}
+
+#logo,
+p,
+h6 {
+  margin-left: 7em;
+}
+
+span {
+  color: orange;
+}
+
+#mainPic {
+  display: flex;
+  justify-content: center;
+}
+
+div img {
+  width: 100%;
+}
