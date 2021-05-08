@@ -1,0 +1,62 @@
+#line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#container {
+  background-color: #f4f4f4;
+  height: 80vh;
+  padding: 1em;
+}
+
+input {
+  border-radius: 1.5em;
+  height: 1.5em;
+}
+
+#heading,
+#sub {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto;
+  font-size: 1.2em;
+  padding: 0.5em;
+  height: 1.8em;
+}
+
+#heading h5 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#sub {
+  color: #008ad8;
+}
+
+#heading {
+  background-color: #008ad8;
+}
+
+#white {
+  background-color: #008ad8;
+}
+
+.desc {
+  color: #686868;
+}
+
+.price {
+  color: black;
+}
+/*# sourceMappingURL=car.css.map */

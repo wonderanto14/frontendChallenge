@@ -1,0 +1,46 @@
+#line {
+  display: flex;
+  justify-content: space-between;
+}
+
+#container {
+  background-color: rgba(244, 244, 244, 1);
+  height: 80vh;
+  padding: 1em;
+}
+input {
+  border-radius: 1.5em;
+  height: 1.5em;
+}
+#heading,
+#sub {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 0 auto;
+  font-size: 1.2em;
+  padding: 0.5em;
+  height: 1.8em;
+}
+#heading h5 {
+  align-self: center;
+}
+
+#sub {
+  color: rgba(0, 138, 216, 1);
+}
+
+#heading {
+  background-color: rgba(0, 138, 216, 1);
+}
+#white {
+  background-color: rgba(0, 138, 216, 1);
+}
+
+.desc {
+  color: rgba(104, 104, 104, 1);
+}
+.price {
+  color: rgba(0, 0, 0, 1);
+}
