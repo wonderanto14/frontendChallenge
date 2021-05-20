@@ -143,3 +143,23 @@ button {
 #pic4 {
   grid-area: pic4;
 }
+
+#simple {
+  color: red;
+  width: 20%;
+}
+.one {
+  border: 3px solid purple;
+  width: 20%;
+}
+
+#whole {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.heart {
+  display: flex;
+  justify-content: space-between;
+}

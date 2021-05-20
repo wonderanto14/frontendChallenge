@@ -174,4 +174,31 @@ button {
   -ms-grid-column: 4;
   grid-area: pic4;
 }
+
+#simple {
+  color: red;
+  width: 20%;
+}
+
+.one {
+  border: 3px solid purple;
+  width: 20%;
+}
+
+#whole {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.heart {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 /*# sourceMappingURL=nintendo.css.map */
